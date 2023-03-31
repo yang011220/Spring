@@ -8,4 +8,6 @@
     </bean>
 <!--    通过反射来配置UserDaoPojo-->
     <bean id="userDao" class="org.example.Dao.pojo.UserDaoPojo"></bean>
+<!--    通过FactoryBean创建对象-->
+    <bean id="factoryBean" class="org.example.factory.UserDaoFactoryBean"></bean>
 </beans>

@@ -8,5 +8,6 @@ public class ApplicationContextTest {
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationcontext.xml");
         UserService userService = (UserService) classPathXmlApplicationContext.getBean("userService");
 
+        userService.size();
     }
 }

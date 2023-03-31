@@ -1,5 +1,5 @@
 package org.example.Dao;
 
 public interface UserDao {
-    public void size();
+//    public void size();
 }
